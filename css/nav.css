@@ -1,0 +1,37 @@
+nav{
+    text-align: left;
+    background-color: #53C7FD;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  nav li a{
+    color: #FFF;
+    background-color: #53C7FD;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    display: block;
+  }
+  
+  .Nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+  nav a:hover{
+    color: #E5017D;
+  }
+  
+  nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    list-style: none;
+  }
+  
+  nav li:hover > ul{
+    display: block;
+  }

@@ -1,0 +1,129 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+  
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+  color: #555;
+}
+
+#sun{
+  width: 80px;
+}
+
+#logo{
+  width: 825px;
+}
+
+#ParteArriba{
+  display: flex;
+  flex-direction: row;
+}
+
+#contenedor{
+  margin: 20px auto 0px auto;
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 1px;
+}
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #E5017D;;
+}
+
+#Texto1{
+  width: 430px;
+}
+
+article p{
+  margin-bottom: 20px;
+}
+
+ol{
+  margin-left: 20px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+#ImagenPerrito{
+  border: solid 1px #555;
+  margin-top: 40px;
+}
+
+#ContenedorImagenPerrito{
+  padding: 25px;
+}
+
+aside article{
+  border: solid 1px #C9E5E9;
+  border-radius: 10px;
+  width: 180px;
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 100px;
+  padding: 10px 0 10px 5px;
+  background-color: #F5FEFF;
+}
+
+aside article h3{
+  color: chartreuse;
+}
+
+aside article p{
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+aside article a{
+  color: cornflowerblue;
+}
+
+.Conciencia{
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.Principal{
+  width: 825px;
+}
+
+.ImagenNoticias{
+  width: 200px;
+}
+
+.Noticia{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: solid 1px #C9E5E9;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+#grass{
+  background: transparent url(../images/grass.png) repeat-x bottom;
+  height: 200px;
+}

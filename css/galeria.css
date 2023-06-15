@@ -1,0 +1,38 @@
+#Disponibles{
+    background-color: #53C7FD;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+}
+
+#TextoGaleria{
+    text-align: left;
+}
+
+.Galeria{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+.FotoGaleriaTabla{
+    width: 100px;
+}
+
+#Tabla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

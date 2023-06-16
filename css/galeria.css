@@ -18,12 +18,22 @@
 }
 
 table{
-    border-collapse: separate;
+    border-collapse: collapse;
     border-spacing: 10px;
+    width: 100%;
 }
 
 td{
     text-align: center;
+}
+
+thead{
+    background: #E5017D;
+    color: #FFF;
+}
+
+th{
+    padding: 10px;
 }
 
 .FotoGaleriaTabla{
@@ -35,4 +45,11 @@ td{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#Relleno{
+    background-color: #E5017D;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
 }
